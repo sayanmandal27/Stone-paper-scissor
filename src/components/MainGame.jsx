@@ -19,6 +19,7 @@ function MainGame() {
   };
   const rollButton = () => {
     setstopEnable(true);
+    setemojiToShow([0,0]);
     setrollButtonText("");
     setTimeout(() => {
       setmainText("Let's go");
